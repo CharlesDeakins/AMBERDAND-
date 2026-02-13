@@ -4,9 +4,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <title>MY AMBERSAND!!</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -74,6 +74,11 @@
         <h1 class="ballet">Will you be my valentine? </h1>
     </div>
 
+    <div class="button-container">
+        <a href="invite.html" class="invite-button">See Invitation</a>
+    </div>
+
+
 </body>
 
 <style>
@@ -109,5 +114,36 @@
 
         margin: 15vw;
     }
+
+    .button-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 60px 0;
+        margin-top: 50vw;
+    }
+
+    .invite-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 85%;
+        height: 10%;
+        aspect-ratio: 1 / 1; /* Makes it perfectly square */
+        background-color: #000;
+        color: #fff;
+        text-decoration: none;
+        font-family: 'Playfair Display', serif;
+        font-size: 3vw;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        transition: all 0.3s ease;
+    }
+
+    .invite-button:hover {
+        background-color: #111;
+        transform: scale(1.02);
+    }
+
 
 </style>
